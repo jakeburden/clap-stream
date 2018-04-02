@@ -16,9 +16,14 @@ stream.end('streams text to claps')
 > if installed globally (-g) 
 
 ```bash
-curl agile_manifesto.txt | clap-stream
+cat agile_manifesto.txt | clap-stream
 ```
 
+> or use npx
+
+```bash
+cat agile_manifesto.txt | npx clap-stream
+```
 
 ## Install
 
