@@ -1,0 +1,36 @@
+{
+  "name": "clap-stream",
+  "version": "1.0.0",
+  "description": "streams 👏 text 👏 to 👏 claps",
+  "main": "index.js",
+  "bin": {
+    "clap-stream": "bin.js"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "stream",
+    "clap",
+    "cli",
+    "0x1F44F",
+    "👏"
+  ],
+  "author": "Jake Burden <jake@doge.hause>",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.6.2",
+    "tape": "^4.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jekrb/clap-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jekrb/clap-stream/issues"
+  },
+  "homepage": "https://github.com/jekrb/clap-stream#readme"
+}
