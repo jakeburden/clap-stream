@@ -11,5 +11,5 @@ function write (buf, enc, next) {
 function replace (str) {
   return str
     .replace(/\s\s+/g, ' ')
-    .replace(/\s/g, ' ' + String.fromCodePoint(0x1F44F) + ' ')
+    .replace(/\s/g, ' ' + String.fromCodePoint(0x1F44F) + ' ' + String.fromCodePoint(0x1F44F))
 }
